@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name = "viewport" content="width = device-width, intial-scale = 1.0">
+    <title>Surprise🥳🎉🎇</title>
+    <link rel="stylesheet" href = "style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,200&display=swap" rel="stylesheet">
+    <link rel = "stylesheet" href = "https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css">
+</head>
+<body>
+    <section class = "header">
+        <nav>
+            <a href = "index.html"><img src="logo.jpg"></a>
+                <div class = "nav-links" id="navLinks">
+                    <i class="fa fa-times-circle" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href =""> ABOUT</a></li>
+                        <li><a href =""> MOOD</a></li>
+                        <li><a href =""> IMPORTANT DATES</a></li>
+                        <li><a href =""> FUTURE PLANS</a></li>
+                        <li><a href = "">FAVOURITE SONGS</a></li>
+                    </ul>
+                </div> 
+                <i class="fa fa-bars" onclick="showMenu()"></i> 
+        </nav>
+    <div class = "text-box">
+        <h1>Dedicated to the world's best Girlfriend</h1>
+        <p>Thank you dear for everything you gave me<br> It was only because of you
+        I realised the essence of true freindship<br>So today I am gifting you my first ever website in return of your kindness and selfless love </p>
+    <a href = "" class="hero-btn">Click here for feedback</a>
+    </div>
+    </section>
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
